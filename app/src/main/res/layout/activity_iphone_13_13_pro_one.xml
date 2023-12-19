@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <FrameLayout android:id="@+id/frameIPhone1313"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylebluegray_100">
+        <LinearLayout android:id="@+id/linearColumnellipsethree"
+            android:layout_gravity="top|start"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:id="@+id/linearColumnmegaphone"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylebluegray_900cornerRadius">
+                <ImageView android:id="@+id/imageMegaphone"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_24pxh"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:layout_width="@dimen/_25pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_megaphone"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_megaphone"/>
+                <ImageView android:gravity="start"
+                    android:id="@+id/imagePngtreelinear"
+                    android:layout_height="@dimen/_387pxh"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_pngtreelinear}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_pngtreelinear"/>
+                <TextView android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtBienvenue"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_19pxh"
+                    android:singleLine="true"
+                    android:text="@string/lbl_bienvenue"
+                    style="@style/txt" tools:text="@string/lbl_bienvenue"/>
+                <TextView android:gravity="center_horizontal"
+                    android:id="@+id/txtCetteapplicati"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_58pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_6pxh"
+                    android:text="@string/msg_cette_applicati"
+                    style="@style/txtDekko25" tools:text="@string/msg_cette_applicati"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearRowellipsethree"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_158pxh"
+                android:layout_marginStart="@dimen/_158pxh"
+                android:layout_marginTop="@dimen/_76pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <View
+                    android:background="@drawable/rectangle_bg_gray_500_radius_6_5"
+                    android:id="@+id/viewEllipseThree"
+                    android:layout_height="@dimen/_13pxh" android:layout_width="@dimen/_12pxh"/>
+                <ImageView android:id="@+id/imageMobile"
+                    android:layout_height="@dimen/_13pxh"
+                    android:layout_marginStart="@dimen/_19pxh"
+                    android:layout_width="@dimen/_12pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_mobile"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_mobile"/>
+                <ImageView android:id="@+id/imageMobileOne"
+                    android:layout_height="@dimen/_13pxh"
+                    android:layout_marginStart="@dimen/_19pxh"
+                    android:layout_width="@dimen/_12pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_mobile"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_mobile"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnPoursuivre"
+                android:layout_gravity="end"
+                android:layout_height="@dimen/_43pxv"
+                android:layout_marginEnd="@dimen/_22pxh"
+                android:layout_marginStart="@dimen/_22pxh"
+                android:layout_marginTop="@dimen/_41pxv"
+                android:layout_width="@dimen/_115pxh"
+                android:lineSpacingExtra="@dimen/_9pxh"
+                android:paddingBottom="@dimen/_7pxv"
+                android:paddingEnd="@dimen/_17pxh"
+                android:paddingStart="@dimen/_17pxh"
+                android:paddingTop="@dimen/_7pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_poursuivre"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_poursuivre"/>
+        </LinearLayout>
+    </FrameLayout>
+</layout>
