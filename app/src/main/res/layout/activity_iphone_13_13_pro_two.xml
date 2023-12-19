@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <FrameLayout android:id="@+id/frameIPhone1313"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylebluegray_100">
+        <LinearLayout android:id="@+id/linearColumnellipsethree"
+            android:layout_gravity="top|start"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:id="@+id/linearColumnmegaphone"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStyleteal_900cornerRadius">
+                <ImageView android:id="@+id/imageMegaphone"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_24pxh"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_9pxh"
+                    android:layout_marginTop="@dimen/_12pxv"
+                    android:layout_width="@dimen/_25pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_megaphone"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_megaphone"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnLyce"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_275pxv"
+                    android:layout_marginEnd="@dimen/_63pxh"
+                    android:layout_marginStart="@dimen/_63pxh"
+                    android:layout_marginTop="@dimen/_245pxv"
+                    android:layout_width="match_parent"
+                    android:letterSpacing="0.29"
+                    android:lineSpacingExtra="@dimen/_16pxh"
+                    android:paddingBottom="@dimen/_9pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_9pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_lyc_e"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_2" tools:text="@string/lbl_lyc_e"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearRowellipsethree"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_160pxh"
+                android:layout_marginStart="@dimen/_160pxh"
+                android:layout_marginTop="@dimen/_77pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <View
+                    android:background="@drawable/rectangle_bg_indigo_900_radius_6_5"
+                    android:id="@+id/viewEllipseThree"
+                    android:layout_height="@dimen/_13pxh" android:layout_width="@dimen/_12pxh"/>
+                <View
+                    android:background="@drawable/rectangle_bg_white_a700_radius_6_5"
+                    android:id="@+id/viewEllipseOne"
+                    android:layout_height="@dimen/_13pxh"
+                    android:layout_marginStart="@dimen/_17pxh" android:layout_width="@dimen/_12pxh"/>
+                <View
+                    android:background="@drawable/rectangle_bg_white_a700_radius_6_5"
+                    android:id="@+id/viewEllipseFour"
+                    android:layout_height="@dimen/_13pxh"
+                    android:layout_marginStart="@dimen/_17pxh" android:layout_width="@dimen/_12pxh"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>
